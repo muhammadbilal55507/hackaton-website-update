@@ -1,0 +1,103 @@
+*{
+    font-family: Roboto-medium;
+
+}
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-black;
+    src: url(assets/fonts/Roboto/Roboto-Black.ttf);
+}
+
+.nav-item a{
+color: black;
+}
+.consultation-btn a{
+    padding: 15px 20px;
+    background-color: #fd4c82;
+    color: #fff;
+    border-radius: 5px;
+}
+header{
+    margin: 4% 10%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+nav ul li{
+    margin-right: 20px;
+}
+.headings-wrapper{
+    width: 40%;
+}
+.headings h4{
+    font-size: 50px;
+    font-family: Roboto-black;
+    margin-bottom: 20px;
+
+}
+.first-btn a,.second-btn a{
+text-decoration: none;
+color: #fff;
+padding: 15px 20px;
+border-radius: 8px;
+}
+.first-btn a{
+    background-color: #fd4c82;
+}
+.second-btn a{
+    background-color: green;
+}
+.headings-btn{
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+}
+.headings-wrapper{
+    position: relative;
+    left: 10%;
+}
+.banner{
+    background-image: url(assets/imgs/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+height: 100vh;
+
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.image img{
+width: 80%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+
+.cards-wrapper .card-body:hover{
+    background-color: #fd4c82;
+}
+
+@media screen and (max-width:900px){
+    .headings-btn{
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }
+}
